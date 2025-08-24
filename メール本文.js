@@ -159,8 +159,8 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                   <tr>
                     <td
                       style="
-                        font-size: 14px;
-                        line-height: 1.4;
+                        font-size: 16px;
+                        line-height: 1.6;
                         color: #224372ff;
                         padding-bottom: 20px;
                       "
@@ -203,7 +203,7 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                   <tr>
                     <td
                       style="
-                        font-size: 20px;
+                        font-size: 18px;
                         line-height: 1.8;
                         color: #1a2e4a;
                         padding-bottom: 10px;
@@ -219,8 +219,8 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
 
             <!-- 相談会セクション -->
             <tr>
-              <td style="padding: 30px 30px 30px 30px" class="content-padding">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FAFAFA; padding: 30px 20px;">
+              <td style="padding: 30px 0px 30px 0px" class="content-padding">
+                <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #F0F0F0; padding: 30px 20px; margin: 0px -20px">
                   <!-- 白背景の内側ブロック -->
                   <tr>
                     <td>
@@ -239,6 +239,44 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                                 height: auto;
                               "
                             />
+                          </td>
+                        </tr>
+
+                        <!-- 相談会内容 -->
+                        <tr>
+                          <td
+                            style="
+                              font-size: 16px;
+                              line-height: 1.8;
+                              color: #1a2e4a;
+                              padding-bottom: 10px;
+                              text-align: center;
+                            "
+                          >
+                            【無料相談会の内容】
+                          </td>
+                        </tr>
+                        <tr>
+                          <td
+                            style="
+                              font-size: 16px;
+                              line-height: 1.6;
+                              color: #1a2e4a;
+                              padding-bottom: 20px;
+                            "
+                          >
+                            <strong
+                              >・貴社の事業課題を整理
+                            ><br />
+                            <strong
+                              >・オススメの業務改善をご提案</strong
+                            ><br />
+                            <strong
+                              >・建築業界でのスケジュール管理事例</strong
+                            ><br />
+                            <strong
+                              >・今日からできるAIの実務活用</strong
+                            ><br />その他なんでも！
                           </td>
                         </tr>
 
@@ -284,52 +322,19 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                           </td>
                         </tr>
 
+                        <!-- フォーム注記 -->
                         <tr>
-                            <td style="padding: 0 30px 30px 30px" class="content-padding">
-                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                                <tr>
-                                    <td
-                                    style="font-size: 14px; line-height: 1.6; color: #666666"
-                                    >
-                                    ※フォームで必要事項と、参加可能な日程を最大3つご入力ください。<br />
-                                    　後ほど弊社担当より、日程調整のご連絡をさせていただきます。
-                                    </td>
-                                </tr>
-                                </table>
-                            </td>
-                        </tr>
-
-                        <!-- 相談会内容 -->
-                        <tr>
-                          <td
-                            style="
-                              font-size: 16px;
-                              line-height: 1.8;
-                              color: #1a2e4a;
-                              padding-bottom: 10px;
-                            "
-                          >
-                            無料相談会では、以下のようなことをお話ししています。
-                          </td>
-                        </tr>
-                        <tr>
-                          <td
-                            style="
-                              font-size: 16px;
-                              line-height: 1.8;
-                              color: #1a2e4a;
-                              padding-bottom: 20px;
-                            "
-                          >
-                            <strong
-                              >・貴社の事業課題を整理し、オススメの業務改善をご提案</strong
-                            ><br />
-                            <strong
-                              >・他の建築会社様でのスケジュール管理成功事例のご紹介</strong
-                            ><br />
-                            <strong
-                              >・今日からできる業務改善・AI活用テクニック</strong
-                            >
+                          <td style="padding: 0 30px 30px 30px" class="content-padding">
+                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                              <tr>
+                                <td
+                                  style="font-size: 14px; line-height: 1.6; color: #666666"
+                                >
+                                  ※フォームで必要事項と、参加可能な日程を最大3つご入力ください。<br />
+                                  　後ほど弊社担当より、日程調整のご連絡をさせていただきます。
+                                </td>
+                              </tr>
+                            </table>
                           </td>
                         </tr>
                       </table>
@@ -375,51 +380,6 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                       "
                     >
                       一つでもご興味がある方は、ぜひ無料相談会にお申し込みください。
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <tr>
-              <td
-                align="center"
-                style="padding: 0 20px 30px 20px"
-                class="content-padding"
-              >
-                <table cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td
-                      style="
-                        font-size: 18px;
-                        font-weight: bold;
-                        color: #ff6b35;
-                        padding-bottom: 10px;
-                      "
-                      align="center"
-                    >
-                      ＼日程を選ぶだけ／
-                    </td>
-                  </tr>
-                  <tr>
-                    <td align="center">
-                      <a
-                        href="#"
-                        style="
-                          background-color: #ff6b35;
-                          border-radius: 500px;
-                          color: #ffffff;
-                          display: inline-block;
-                          font-size: 18px;
-                          font-weight: bold;
-                          line-height: 50px;
-                          text-align: center;
-                          text-decoration: none;
-                          width: 220px;
-                          -webkit-text-size-adjust: none;
-                        "
-                        >無料で相談してみる</a
-                      >
                     </td>
                   </tr>
                 </table>
