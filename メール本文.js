@@ -114,7 +114,7 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
             <tr>
               <td
                 align="center"
-                style="padding: 20px 20px 20px 20px"
+                style="padding: 0px 20px 20px 20px"
                 class="content-padding"
               >
                 <a
@@ -159,18 +159,17 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                   <tr>
                     <td
                       style="
-                        font-size: 16px;
-                        line-height: 1.8;
-                        color: #1a2e4a;
+                        font-size: 14px;
+                        line-height: 1.4;
+                        color: #224372ff;
                         padding-bottom: 20px;
                       "
                     >
-                      <strong style="font-size: 14px;"
-                        >「職人のスケジュールを管理するツールを導入したいが、施工管理アプリを入れるほどじゃない」</strong
+                      <strong
+                        >「スケジュール管理ツールを導入したいが、施工管理アプリを入れる規模じゃない」</strong
                       ><br />
-                      <strong style="font-size: 14px;"
-                        >「今までLINE
-                        WORKSなどのスケジュールアプリを使ってきたが、実務に合ってなくて使いづらい…」</strong
+                      <strong
+                        >「今までLINE WORKSを使っていたが、実務に合ってなくて使いづらい…」</strong
                       >
                     </td>
                   </tr>
@@ -194,7 +193,7 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                         font-size: 16px;
                         line-height: 1.8;
                         color: #1a2e4a;
-                        padding-bottom: 20px;
+                        padding-bottom: 30px;
                       "
                     >
                       弊社は小規模建築会社向けワーカー管理アプリ「現場っち」を提供している会社です。
@@ -204,10 +203,10 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                   <tr>
                     <td
                       style="
-                        font-size: 16px;
+                        font-size: 20px;
                         line-height: 1.8;
                         color: #1a2e4a;
-                        padding-bottom: 30px;
+                        padding-bottom: 10px;
                       "
                     >
                       この度、施工管理・スケジュール管理に課題感をお持ちの方向けに、<br />
@@ -222,27 +221,27 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
             <tr>
               <td style="padding: 30px 30px 30px 30px" class="content-padding">
                 <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #FAFAFA; padding: 30px 20px;">
-                  <!-- 画像 -->
-                  <tr>
-                    <td align="center" style="padding: 0 0 30px 0">
-                      <img
-                        src="https://raw.githubusercontent.com/Sekiguchi-AgeLab/htmlmail/main/HTMLメール画像ver1/soudankai.png"
-                        alt="無料相談会"
-                        width="360"
-                        style="
-                          display: block;
-                          width: 100%;
-                          max-width: 360px;
-                          height: auto;
-                        "
-                      />
-                    </td>
-                  </tr>
-
                   <!-- 白背景の内側ブロック -->
                   <tr>
                     <td>
                       <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #ffffff; padding: 20px;">
+                        <!-- 画像 -->
+                        <tr>
+                          <td align="center" style="padding: 0 0 30px 0">
+                            <img
+                              src="https://raw.githubusercontent.com/Sekiguchi-AgeLab/htmlmail/main/HTMLメール画像ver1/soudankai.png"
+                              alt="無料相談会"
+                              width="360"
+                              style="
+                                display: block;
+                                width: 100%;
+                                max-width: 360px;
+                                height: auto;
+                              "
+                            />
+                          </td>
+                        </tr>
+
                         <!-- CTAボタン -->
                         <tr>
                           <td align="center" style="padding-bottom: 30px;">
@@ -283,6 +282,21 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                               </tr>
                             </table>
                           </td>
+                        </tr>
+
+                        <tr>
+                            <td style="padding: 0 30px 30px 30px" class="content-padding">
+                                <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                <tr>
+                                    <td
+                                    style="font-size: 14px; line-height: 1.6; color: #666666"
+                                    >
+                                    ※フォームで必要事項と、参加可能な日程を最大3つご入力ください。<br />
+                                    　後ほど弊社担当より、日程調整のご連絡をさせていただきます。
+                                    </td>
+                                </tr>
+                                </table>
+                            </td>
                         </tr>
 
                         <!-- 相談会内容 -->
@@ -350,83 +364,6 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
             <tr>
               <td style="padding: 0 30px" class="content-padding">
                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td
-                      style="
-                        font-size: 16px;
-                        line-height: 1.8;
-                        color: #1a2e4a;
-                        padding-bottom: 10px;
-                      "
-                    >
-                      無料相談会では、以下のようなことをお話しています。
-                    </td>
-                  </tr>
-                  <tr>
-                    <td
-                      style="
-                        font-size: 16px;
-                        line-height: 1.8;
-                        color: #1a2e4a;
-                        padding-bottom: 20px;
-                      "
-                    >
-                      <strong
-                        >・貴社の事業課題を整理し、オススメの業務改善をご提案</strong
-                      ><br />
-                      <strong
-                        >・他の建築会社様でのスケジュール管理成功事例のご紹介</strong
-                      ><br />
-                      <strong
-                        >・今日からできる業務改善・AI活用テクニック</strong
-                      >
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td style="padding: 10px 20px 20px 20px">
-                      <table
-                        width="100%"
-                        cellpadding="0"
-                        cellspacing="0"
-                        border="0"
-                        style="
-                          background-color: #f9fafb;
-                          border-left: 2px solid #e0e5ea;
-                        "
-                      >
-                        <tr>
-                          <td
-                            style="
-                              padding: 10px 15px;
-                              font-size: 13px;
-                              line-height: 1.5;
-                              color: #8896a3;
-                            "
-                          >
-                            ※相談会は今後の事業展開のための調査の一環として開催しています。<br />
-                            簡単にアプリのご紹介をさせて頂く場合もございますが、<br />
-                            無理な勧誘などは一切いたしません！
-                          </td>
-                        </tr>
-                      </table>
-                    </td>
-                  </tr>
-
-                  <tr>
-                    <td
-                      style="
-                        font-size: 16px;
-                        line-height: 1.8;
-                        color: #1a2e4a;
-                        padding-bottom: 10px;
-                      "
-                    >
-                      <span style="font-size: 14px;">「既存ツールを変えようか悩んでいる」</span><br />
-                      <span style="font-size: 14px;">「他の中小企業がどのようにスケジュール管理をしているか知りたい」</span><br />
-                      <span style="font-size: 14px;">「事務員が1人しかいないため、管理業務を効率化したい」</span>
-                    </td>
-                  </tr>
 
                   <tr>
                     <td
@@ -437,7 +374,7 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                         padding-bottom: 30px;
                       "
                     >
-                      このようなお悩みがある方は、ぜひ無料相談会にお申し込みください。
+                      一つでもご興味がある方は、ぜひ無料相談会にお申し込みください。
                     </td>
                   </tr>
                 </table>
@@ -483,21 +420,6 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
                         "
                         >無料で相談してみる</a
                       >
-                    </td>
-                  </tr>
-                </table>
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding: 0 30px 30px 30px" class="content-padding">
-                <table width="100%" cellpadding="0" cellspacing="0" border="0">
-                  <tr>
-                    <td
-                      style="font-size: 14px; line-height: 1.6; color: #666666"
-                    >
-                      ※フォームで必要事項と、参加可能な日程を最大3つご入力ください。<br />
-                      　後ほど弊社担当より、日程調整のご連絡をさせていただきます。
                     </td>
                   </tr>
                 </table>
@@ -564,7 +486,7 @@ function buildMailHtml(companyName, pixelUrl, subjectKey) {
             </tr>
 
             <tr>
-              <td style="padding: 0 30px 30px 30px" class="content-padding">
+              <td style="padding: 0 30px 50px 30px" class="content-padding">
                 <table width="100%" cellpadding="0" cellspacing="0" border="0">
                   <tr>
                     <td
